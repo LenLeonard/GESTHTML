@@ -1,0 +1,90 @@
+/* CSS for the navigation bar */
+nav {
+    background-color: #D9D9D9; /* Set the background color */
+    color: #000; /* Set the text color */
+    padding: 15px; /* Add some padding */
+    text-align: right;
+    font-family: 'Inter', sans-serif;
+
+  }
+
+  
+.search-bar {
+  text-align: center;
+}
+
+.search-bar input[type="text"] {
+  padding: 5px;
+}
+
+.search-bar button[type="submit"] {
+  padding: 5px 10px;
+  margin-left: 5px;
+}
+
+  nav ul {
+    list-style-type: none; /* Remove the bullet points */
+    margin: 0; /* Remove the default margin */
+    padding: 0; /* Remove the default padding */
+  }
+
+  nav ul li {
+    display: inline-block; /* Display the list items horizontally */
+    margin-right: 10px; /* Add some spacing between the items */
+  }
+
+  nav ul li a {
+    color: #000; /* Set the link text color */
+    text-decoration: none; /* Remove the underline */
+  }
+
+  .background-layer {
+    background-image: url('old_st_johns.jpeg');
+    opacity: 0.5;
+    height: 1000px; /* Set a fixed height */
+    width: 100%; /* Set a width, such as 100% of the parent container */
+    position: relative;
+  }
+
+  .content {
+    margin-top: 0; /* Remove the default margin */
+    padding-top: 0; /* Remove the default padding */
+  }
+  .heading {
+    position: absolute;
+    top: 8%;
+    left: 50%; /* Adjust the horizontal position as needed */
+    text-align: center;
+    transform: translate(-50%, -50%); /* Center the heading */
+    color: #000;
+    font-size: larger;
+   
+  }
+
+  .container {
+    text-align: center;
+  }
+  
+  .second-nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    display: inline-block;
+    margin-top: 200px;
+  }
+  
+  .second-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .second-nav li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  .second-nav a {
+    color: #fff;
+    text-decoration: none;
+  }
